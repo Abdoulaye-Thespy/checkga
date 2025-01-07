@@ -51,7 +51,7 @@ export default function StudentPage() {
 
   return (
     <div className="min-h-screen bg-slate-100 flex items-center justify-center p-4">
-      {studentData && <VerificationCard user={studentData} />}
+      {studentData && <VerificationCard student={studentData} />}
     </div>
   );
 }

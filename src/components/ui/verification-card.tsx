@@ -4,19 +4,21 @@ import { Card } from "@/components/ui/card"
 import { CheckCircle } from 'lucide-react'
 import Image from "next/image"
 
-interface VerificationCardProps {
-  student: {
-    name: string
-    profession: string
-    matricule: string
-    telephone: string
-    email: string
-    photoUrl: string
-    comment: string
-  }
+interface Student {
+  name: string
+  role: string
+  Matricule: string
+  tel: string
+  Email: string
+  photoUrl: string
+  comment: string
 }
 
-export default function VerificationCard({ user }: VerificationCardProps) {
+interface VerificationCardProps {
+  student: Student;  // Use the Student type
+}
+
+export default function VerificationCard({ student }: VerificationCardProps) { // Change `user` to `student`
   return (
     <Card className="w-full max-w-md bg-[#004D40] text-white p-6 rounded-2xl">
       {/* Header with Logo and Verification Badge */}
@@ -42,8 +44,8 @@ export default function VerificationCard({ user }: VerificationCardProps) {
       <div className="flex flex-col md:flex-row gap-6">
         <div className="relative w-32 h-32 mx-auto md:mx-0">
           <Image
-            src={user.photoUrl}
-            alt={user.name}
+            src={student.photoUrl}
+            alt={student.name}
             fill
             className="rounded-full object-cover border-4 border-white"
           />
@@ -53,23 +55,23 @@ export default function VerificationCard({ user }: VerificationCardProps) {
           <div className="grid gap-y-2">
             <div className="flex gap-2">
               <span className="text-[#A7F3D0] min-w-[100px]">Name:</span>
-              <span>{user.name}</span>
+              <span>{student.name}</span>
             </div>
             <div className="flex gap-2">
-              <span className="text-[#A7F3D0] min-w-[100px]">Statut:</span>
-              <span>{user.role}</span>
+              <span className="text-[#A7F3D0] min-w-[100px]">Status:</span>
+              <span>{student.role}</span> {/* Assuming 'role' corresponds to 'profession' */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#A7F3D0] min-w-[100px]">Matricule:</span>
-              <span>{user.Matricule}</span>
+              <span>{student.Matricule}</span> {/* Corrected from `Matricule` to `matricule` */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#A7F3D0] min-w-[100px]">Telephone:</span>
-              <span>{user.tel}</span>
+              <span>{student.tel}</span> {/* Corrected from `tel` to `telephone` */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#A7F3D0] min-w-[100px]">Email:</span>
-              <span className="break-all">{user.Email}</span>
+              <span className="break-all">{student.Email}</span> {/* Corrected from `Email` to `email` */}
             </div>
           </div>
         </div>
@@ -79,10 +81,9 @@ export default function VerificationCard({ user }: VerificationCardProps) {
       <div className="mt-6">
         <div className="flex gap-2">
           <span className="text-[#00E676]">Comment:</span>
-          <span className="text-[#00E676]">{user.comment}</span>
+          <span className="text-[#00E676]">{student.comment}</span>
         </div>
       </div>
     </Card>
   )
 }
-
