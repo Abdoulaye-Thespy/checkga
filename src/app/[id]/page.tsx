@@ -41,6 +41,8 @@ export default function StudentPage() {
       }
     }
 
+    
+
     if (id) {
       fetchStudentData();
     }
