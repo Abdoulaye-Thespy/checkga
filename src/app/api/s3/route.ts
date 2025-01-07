@@ -1,4 +1,4 @@
-import { PutObjectCommand, GetObjectCommand, DeleteObjectCommand } from "@aws-sdk/client-s3";
+import { GetObjectCommand } from "@aws-sdk/client-s3";
 import { s3Client } from '../../../utils/s3';
 import { NextRequest, NextResponse } from 'next/server';
 
