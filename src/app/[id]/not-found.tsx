@@ -9,7 +9,7 @@ export default function NotFound() {
         <CardHeader className="text-center">
           <CardTitle className="text-2xl mb-2">Student Not Found</CardTitle>
           <CardDescription>
-            The student information you're looking for could not be found.
+            The student information you&apos;re looking for could not be found.
           </CardDescription>
           <Button asChild className="mt-4">
             <Link href="/">Return Home</Link>
