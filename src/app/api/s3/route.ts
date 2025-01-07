@@ -46,5 +46,3 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: 'Failed to fetch object from S3', details: error.message }, { status: 500 });
   }
 }
-
-export default GET;
