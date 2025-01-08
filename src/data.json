@@ -59,7 +59,8 @@
       "Matricule": "GA-2025-T002",
       "tel": 671515042,
       "Email": "directeur@globalacademi.cm",
-      "role": "Teacher"
+      "role": "Staff",
+      "photoUrl": "/CTO2.png"
     },
     {
       "fonction": "Promoteur",

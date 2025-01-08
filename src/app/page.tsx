@@ -21,12 +21,12 @@ export default function VerificationPage() {
         <CardContent className="p-6 space-y-8">
           {/* Logo Section */}
           <div className="flex justify-center">
-            <div className="bg-white rounded-full p-4 w-24 h-24 flex items-center justify-center">
+            <div className="bg-white rounded-full p-4 w-74 h-74 flex items-center justify-center">
               <Image
                 src="/logoround.png"
                 alt="Logo"
-                width={60}
-                height={60}
+                width={100}
+                height={100}
                 className="object-contain"
               />
             </div>
