@@ -5,7 +5,7 @@ import { CheckCircle } from 'lucide-react'
 import Image from "next/image"
 
 interface Student {
-  name: string
+  fullName: string
   role: string
   Matricule: string
   tel: string
@@ -28,7 +28,7 @@ export default function VerificationCard({ student }: VerificationCardProps) { /
             src="/logoround.png"
             alt="Logo"
             width={62}
-            height={62}
+            height={62} 
             className="object-contain"
           />
         </div>
