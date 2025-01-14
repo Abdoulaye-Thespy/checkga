@@ -1,86 +1,106 @@
 [
   {
     "fullName": "LILI",
-    "Matricule": "GA-2025-D011",
-    "Département": "Cloud Computing",
+    "matricule": "GA-2025-D011",
+    "depart": "Cloud Computing",
     "role": "Student",
-    "photoUrl": "/lili.png"
+    "photoUrl": "/lili.png",
+    "comment": "Etudiant en cours du soir"
   },
   {
     "fullName": "Rodrigue",
-    "Matricule": "GA-2025-D010",
-    "Département": "Cloud Computing",
+    "matricule": "GA-2025-D010",
+    "depart": "Cloud Computing",
     "role": "Student",
-    "photoUrl": "/rodrigue.png"
+    "photoUrl": "/rodrigue.png",
+    "comment": "Enseignant de Cloud Computing"
   },
   {
     "fullName": "KPOUMIE Moullay Mohamed Abdalla",
-    "Matricule": "GA-2025-D009",
-    "Département": "Cloud Computing",
+    "matricule": "GA-2025-D009",
+    "depart": "Cloud Computing",
     "role": "Student",
-    "photoUrl": "/moullay.png"
+    "photoUrl": "/moullay.png",
+    "comment": "Etudiant en cours du soir",
+    "tel": "657375592",
+    "Email": "00kma54@gmail.com"
+
   },
   {
     "fullName": "NDEMI DIKA ESTHER LAURE",
-    "Matricule": "GA-2025-D008",
-    "Département": "Sécrétaria de Direction",
+    "matricule": "GA-2025-D008",
+    "depart": "Sécrétaria de Direction",
     "role": "Student",
-    "photoUrl": "/esther.png"
+    "photoUrl": "/esther.png",
+    "comment": "Etudiant en cours du jour",
+    "tel": "694792118",
+    "Email": "estherndedi.en@gmail.com"
   },
   {
     "fullName": "MGAMZIE FADIMATOU",
-    "Matricule": "GA-2025-D007",
-    "Département": "Sécrétaria de Direction",
+    "matricule": "GA-2025-D007",
+    "depart": "Sécrétaria de Direction",
     "role": "Student",
-    "photoUrl": "/fadimatou.png"
+    "photoUrl": "/fadimatou.png",
+    "comment": "Etudiant en cours du jour",
+    "tel": "      //////////",
+    "Email": "      //////////"
   },
   {
     "fullName": "NDONKOU AWAOU",
-    "Matricule": "GA-2025-D006",
-    "Département": "Sécrétariat de Direction",
+    "matricule": "GA-2025-D006",
+    "depart": "Sécrétariat de Direction",
     "role": "Student",
-    "photoUrl": "/awa.png"
+    "photoUrl": "/awa.png",
+    "comment": "Etudiant en cours du soir",
+    "tel": "657547129",
+    "Email": "ndonkouawaou@gmail.com"
   },
   {
     "fullName": "MFOUT ALIMA",
-    "Matricule": "GA-2025-T004",
+    "matricule": "GA-2025-T004",
     "tel": 697603242,
     "Email": "alima@globalacademy.cm",
     "role": "Teacher",
-    "photoUrl": "/alima.png"
+    "photoUrl": "/alima.png",
+    "comment": "Assistante de Direction"
   },
   {
     "fullName": "ALHADJI ALI GARABA",
-    "Matricule": "GA-2025-T003",
+    "matricule": "GA-2025-T003",
     "tel": 650453028,
     "Email": "alhalig@globalacademy.cm",
     "role": "Teacher",
-    "photoUrl": "/alhalig.png"
+    "photoUrl": "/alhalig.png",
+    "comment": "Responsable de la planification et du suivi"
   },
   {
     "fullName": "VEPOUYOUM YOUSSEF",
-    "Matricule": "GA-2025-T005",
+    "matricule": "GA-2025-T005",
     "tel": 673109535,
     "Email": "youssef@globalacademy.cm",
     "role": "Teacher",
-    "photoUrl": "/youssef.png"
+    "photoUrl": "/youssef.png",
+    "comment": "Enseignant d'infograhie & multimedia"
   },
   {
     "fonction": "Directeur",
-    "name": "NJIGOUH ABDEL RAZAK",
-    "Matricule": "GA-2025-T002",
+    "fullName": "NJIGOUH ABDEL RAZAK",
+    "matricule": "GA-2025-T002",
     "tel": 671515042,
     "Email": "directeur@globalacademy.cm",
     "role": "Staff",
-    "photoUrl": "/CTO2.png"
+    "photoUrl": "/CTO2.png",
+    "comment": "Co-Fondateur et Directeur"
   },
   {
     "fonction": "Promoteur",
-    "name": "NSANGOU ZOUNEDOU",
-    "Matricule": "GA-2025-T001",
+    "fullName": "NSANGOU ZOUNEDOU",
+    "matricule": "GA-2025-T001",
     "tel": 233429487,
     "Email": "promoteur@globalacademy.cm",
     "role": "Teacher",
-    "photoUrl": "/promoteur.png"
+    "photoUrl": "/promoteur.png",
+    "comment": "Le Promoteur du centre"
   }
 ]
