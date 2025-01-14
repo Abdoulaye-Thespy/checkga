@@ -25,7 +25,7 @@ export default function StudentPage() {
         // Assuming the API returns an object with a "Student" array
 
         // Find the student with the matching ID
-        const student = students.find((student: any) => student.Matricule === id);
+        const student = students.find((student: any) => student.matricule === id);
         console.log(student);
 
         if (!student) {
