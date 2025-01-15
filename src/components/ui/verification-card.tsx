@@ -21,7 +21,7 @@ interface VerificationCardProps {
 
 export default function VerificationCard({ student }: VerificationCardProps) { // Change `user` to `student`
   return (
-    <Card className="w-full max-w-md bg-[#104d407] text-white p-6 rounded-2xl">
+<Card className="w-full max-w-md bg-[#000] text-white p-6 rounded-2xl">
       {/* Header with Logo and Verification Badge */}
 
       <div className="flex justify-between items-start mb-8">
