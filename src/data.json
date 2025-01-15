@@ -1,74 +1,106 @@
 [
-    {
-      "name": "KPOUMIE",
-      "lastname": "Moullay Mohamed Abdalla",
-      "Matricule": "GA-2025-D001",
-      "Département": "Cloud Computing",
-      "role": "Student"
-    },
-    {
-      "name": "NDEMI DIKA",
-      "lastname": "ESTHER LAURE",
-      "Matricule": "GA-2025-D002",
-      "Département": "Sécrétaria de Direction",
-      "role": "Student"
-    },
-    {
-      "name": "MGAMZIE",
-      "lastname": "FADIMATOU",
-      "Matricule": "GA-2025-D003",
-      "Département": "Sécrétaria de Direction",
-      "role": "Student",
-      "photoUrl": ""
-    },
-    {
-      "name": "NDONKOU",
-      "lastname": "AWAOU",
-      "Matricule": "GA-2025-D004",
-      "Département": "Sécrétaria de Direction",
-      "role": "Student"
-    },
-    {
-      "name": "MFOUT",
-      "lastname": "ALIMA",
-      "Matricule": "GA-2025-T004",
-      "tel": 697603242,
-      "Email": "alima@globalacademi.cm",
-      "role": "Teacher"
-    },
-    {
-      "name": "GARBA",
-      "lastname": "ALHADJI ALI",
-      "Matricule": "GA-2025-T003",
-      "tel": 650453028,
-      "Email": "alhalig@globalacademi.cm",
-      "role": "Teacher"
-    },
-    {
-      "name": "VEPOUYOUM",
-      "lastname": "YOUSSEF",
-      "Matricule": "GA-2025-T005",
-      "tel": 673109535,
-      "Email": "youssef@globalacademi.cm",
-      "role": "Teacher"
-    },
-    {
-      "fonction": "Directeur",
-      "name": "NJIGOUH",
-      "lastname": "ABDEL RAZAK",
-      "Matricule": "GA-2025-T002",
-      "tel": 671515042,
-      "Email": "directeur@globalacademi.cm",
-      "role": "Staff",
-      "photoUrl": "/CTO2.png"
-    },
-    {
-      "fonction": "Promoteur",
-      "name": "NSANGOU",
-      "lastname": "ZOUNEDOU",
-      "Matricule": "GA-2025-T001",
-      "tel": 233429487,
-      "Email": "promoteur@globalacademi.cm",
-      "role": "Teacher"
-    }
-  ]
+  {
+    "fullName": "LILI",
+    "matricule": "GA-2025-D011",
+    "depart": "Cloud Computing",
+    "role": "Student",
+    "photoUrl": "/lili.png",
+    "comment": "Etudiant en cours du soir"
+  },
+  {
+    "fullName": "Rodrigue",
+    "matricule": "GA-2025-D010",
+    "depart": "Cloud Computing",
+    "role": "Student",
+    "photoUrl": "/rodrigue.png",
+    "comment": "Enseignant de Cloud Computing"
+  },
+  {
+    "fullName": "KPOUMIE Moullay Mohamed Abdalla",
+    "matricule": "GA-2025-D009",
+    "depart": "Cloud Computing",
+    "role": "Student",
+    "photoUrl": "/moullay.png",
+    "comment": "Etudiant en cours du soir",
+    "tel": "657375592",
+    "Email": "00kma54@gmail.com"
+
+  },
+  {
+    "fullName": "NDEMI DIKA ESTHER LAURE",
+    "matricule": "GA-2025-D008",
+    "depart": "Sécrétaria de Direction",
+    "role": "Student",
+    "photoUrl": "/esther.png",
+    "comment": "Etudiant en cours du jour",
+    "tel": "694792118",
+    "Email": "estherndedi.en@gmail.com"
+  },
+  {
+    "fullName": "MGAMZIE FADIMATOU",
+    "matricule": "GA-2025-D007",
+    "depart": "Sécrétaria de Direction",
+    "role": "Student",
+    "photoUrl": "/fadimatou.png",
+    "comment": "Etudiant en cours du jour",
+    "tel": "      //////////",
+    "Email": "      //////////"
+  },
+  {
+    "fullName": "NDONKOU AWAOU",
+    "matricule": "GA-2025-D006",
+    "depart": "Sécrétariat de Direction",
+    "role": "Student",
+    "photoUrl": "/awa.png",
+    "comment": "Etudiant en cours du soir",
+    "tel": "657547129",
+    "Email": "ndonkouawaou@gmail.com"
+  },
+  {
+    "fullName": "MFOUT ALIMA",
+    "matricule": "GA-2025-T004",
+    "tel": 697603242,
+    "Email": "alima@globalacademy.cm",
+    "role": "Teacher",
+    "photoUrl": "/alima.png",
+    "comment": "Assistante de Direction"
+  },
+  {
+    "fullName": "ALHADJI ALI GARABA",
+    "matricule": "GA-2025-T003",
+    "tel": 650453028,
+    "Email": "alhalig@globalacademy.cm",
+    "role": "Teacher",
+    "photoUrl": "/alhalig.png",
+    "comment": "Responsable de la planification et du suivi"
+  },
+  {
+    "fullName": "VEPOUYOUM YOUSSEF",
+    "matricule": "GA-2025-T005",
+    "tel": 673109535,
+    "Email": "youssef@globalacademy.cm",
+    "role": "Teacher",
+    "photoUrl": "/youssef.png",
+    "comment": "Enseignant d'infograhie & multimedia"
+  },
+  {
+    "fonction": "Directeur",
+    "fullName": "NJIGOUH ABDEL RAZAK",
+    "matricule": "GA-2025-T002",
+    "tel": 671515042,
+    "Email": "directeur@globalacademy.cm",
+    "role": "Staff",
+    "photoUrl": "/CTO2.png",
+    "comment": "Co-Fondateur et Directeur"
+  },
+  {
+    "fonction": "Promoteur",
+    "fullName": "NSANGOU ZOUNEDOU",
+    "matricule": "GA-2025-T001",
+    "tel": 233429487,
+    "Email": "promoteur@globalacademy.cm",
+    "role": "Teacher",
+    "photoUrl": "/promoteur.png",
+    "comment": "Le Promoteur du centre"
+  }
+]
