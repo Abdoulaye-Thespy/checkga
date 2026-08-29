@@ -5,11 +5,11 @@ import { CheckCircle } from 'lucide-react'
 import Image from "next/image"
 
 interface Student {
-  fullName: string
-  role: string
+  Name: string
+  Title: string
   depart: string
-  matricule: string
-  tel: string
+  Matricule: string
+  phone: string
   Email: string
   photoUrl: string
   comment: string
@@ -53,29 +53,29 @@ export default function VerificationCard({ student }: VerificationCardProps) { /
         <div className="relative w-32 h-32 mx-auto md:mx-0">
           <Image
             src={student.photoUrl}
-            alt={student.fullName}
+            alt={student.Name}
             fill
             className="rounded-full object-cover border-4 border-white hover:scale-110"
           />
         </div>
-        
+
         <div className="flex-1 space-y-2">
           <div className="grid gap-y-2">
             <div className="flex gap-2">
               <span className="text-[#b0862c] min-w-[100px] font-bold">Name :</span>
-              <span>{student.fullName}</span>
+              <span>{student.Name}</span>
             </div>
             <div className="flex gap-2">
               <span className="text-[#b0862c] min-w-[100px] font-bold">Status :</span>
-              <span>{student.role}</span> {/* Assuming 'role' corresponds to 'profession' */}
+              <span>{student.Title}</span> {/* Assuming 'role' corresponds to 'profession' */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#b0862c] min-w-[100px] font-bold">Matricule :</span>
-              <span>{student.matricule}</span> {/* Corrected from `Matricule` to `matricule` */}
+              <span>{student.Matricule}</span> {/* Corrected from `Matricule` to `matricule` */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#b0862c] min-w-[100px] font-bold">Phone :</span>
-              <span>{student.tel}</span> {/* Corrected from `tel` to `telephone` */}
+              <span>{student.phone}</span> {/* Corrected from `tel` to `telephone` */}
             </div>
             <div className="flex gap-2">
               <span className="text-[#b0862c] min-w-[100px] font-bold">Email :</span>

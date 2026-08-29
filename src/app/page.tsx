@@ -9,8 +9,15 @@ import Image from 'next/image'
 export default function VerificationPage() {
   const [idNumber, setIdNumber] = useState('')
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value
+    console.log('Input value:', value)
+    setIdNumber(value)
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
     // Handle verification logic here
     console.log('Verifying ID:', idNumber)
   }
@@ -47,8 +54,8 @@ export default function VerificationPage() {
                 type="text"
                 placeholder="GA-XXXX-XXXX"
                 value={idNumber}
-                onChange={(e) => setIdNumber(e.target.value)}
-                pattern="GA-\d{4}-\d{4}"
+                onChange={handleChange}
+                pattern="GA-[0-9]{4}-[A-Z][0-9]{3}"
                 className="bg-white text-black placeholder:text-gray-500 h-12 text-lg text-center"
                 required
               />
@@ -66,4 +73,3 @@ export default function VerificationPage() {
     </div>
   )
 }
-
