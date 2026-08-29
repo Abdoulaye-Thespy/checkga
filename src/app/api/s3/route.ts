@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Données en mémoire (instance) 
 // Ces données remplacent le fichier data.json qui était dans S3
-let data = {
+const data = {
   Student: [
     {
       Matricule: "GA-2025-T002",
