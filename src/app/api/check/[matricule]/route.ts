@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 // Données en mémoire (instance) 
-let studentData = {
+const studentData = {
   Student: [
     {
       Matricule: "GA-2025-T002",
